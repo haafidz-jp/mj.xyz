@@ -11,26 +11,32 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-5xl	 font-bold">
+        <h1 className="text-4xl	font-bold mt-6">
           {' '}
           <a className="text-blue-600" href="/">
             TOKO MULIA JAYA
           </a>
         </h1>
 
-        <div className="flex flex-col flex-wrap items-center justify-around max-w-xl	 mt-6 sm:w-full">
+        <div className="flex flex-col flex-wrap items-center justify-around max-w-xl mt-6 sm:w-full">
 
         
         <p className="mt-9 text-2xl font-mono border md:p-5">
           Jl.Pintu Ps. Barat No.36 Jatinegara
         </p>
 
-        <h1
-          className="mt-9 text-center text-3xl "
-        >
-          <Sedia />
-        </h1>
+        </div>
 
+        <div className="flex flex-col flex-wrap items-center justify-around max-w-3xl sm:w-full">
+          <h1
+            className="mt-9 text-center text-3xl font-mono"
+          >
+            <Sedia />
+          </h1>
+        </div>
+
+
+        <div className="flex flex-col flex-wrap items-center justify-around max-w-xl mt-3 sm:w-full">
         <h2
           className="font-semibold text-4xl mt-10"
         >
@@ -70,7 +76,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-20 border-t">
+      <footer className="flex items-center justify-center w-full h-20 border-t mt-6">
         <a
           className="flex items-center justify-center"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
