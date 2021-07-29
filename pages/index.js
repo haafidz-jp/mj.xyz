@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-8xl font-bold">
+        <h1 className="text-5xl	 font-bold">
           {' '}
           <a className="text-blue-600" href="/">
             TOKO MULIA JAYA
@@ -21,8 +21,8 @@ export default function Home() {
         <div className="flex flex-col flex-wrap items-center justify-around max-w-xl	 mt-6 sm:w-full">
 
         
-        <p className="mt-9 text-2xl">
-          Alamat : Jl.Pasar barat No.38 Jatinegara, DKI JAKARTA
+        <p className="mt-9 text-2xl font-mono border md:p-5">
+          Jl.Pintu Ps. Barat No.36 Jatinegara
         </p>
 
         <h1
@@ -38,8 +38,17 @@ export default function Home() {
         </h2>
         </div>
 
-        <div className="flex flex-wrap items-center justify-around max-w-lg	 mt-4 sm:w-full">
+        <div className="flex flex-wrap items-center justify-around sm:w-full max-w-xs xl:max-w-3xl	mt-4">
           
+          <a
+            href="https://wa.me/+6281288283426"
+            className="p-6 mt-4 text-center border w-auto rounded-xl bg-white hover:bg-gray-50"
+          >
+            <img 
+              className="w-36"
+              src="/whatsapp.svg" alt="Whatsapp Logo" />
+          </a>
+
           <a
             href="https://tokopedia.com/jayabaru123"
             className="p-6 mt-4 text-center border w-auto rounded-xl bg-white hover:bg-gray-50"
